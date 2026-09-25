@@ -1,18 +1,13 @@
 # Dependability Tracker
 
-## The problem
+Dependability Tracker is a workforce-operations system for turning schedule and timekeeping variances into clear, reviewable cases. It helps managers understand what happened, track follow-up, and preserve the context behind decisions, without treating every discrepancy as an employee issue.
 
-A difference between a planned shift and a time record does not explain why it happened. Treating every discrepancy as an employee issue can confuse scheduling changes, coverage, corrected records, and events that need a manager's review.
+## From raw variance to useful review
 
-## What it does
+The system detects eligible exceptions, organizes them into a manager review queue, and records reviewer context, status, and follow-up. Source scheduling and timekeeping records remain unchanged. Detection is deterministic; managers and HR retain responsibility for interpreting cases and making employment decisions.
 
-Dependability Tracker compares schedule and time-record data, assembles discrepancies into a review queue, and summarizes staffing and coverage patterns. It is designed to make exceptions visible and give managers a consistent place to classify them.
+## Built around operational feedback
 
-## Product choices
+During a multi-subsidiary pilot, feedback exposed false positives involving split shifts. A non-destructive recalculation reduced one weekly review queue from 70 cases to 19, a 73% reduction, while preserving the audit trail.
 
-- Preserve the complete discrepancy queue instead of hiding records when there are more exceptions than expected.
-- Keep uncertain cases in review until a manager supplies context.
-- Separate staffing impact from accountability decisions. The software does not infer performance issues or make disciplinary decisions.
-- Leave source scheduling and timekeeping records unchanged.
-
-This is an operational review aid, not a payroll source of truth or an automated employee evaluation system. The implementation and any organization-specific operating details remain private.
+The result is a more focused review process, not an automated employee evaluation or payroll source of truth. The implementation and organization-specific operating details remain private.

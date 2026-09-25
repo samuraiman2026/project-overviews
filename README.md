@@ -11,7 +11,7 @@ The write-ups focus on the problem, product decisions, system boundaries, and ev
 | Digital Job OS | A private, workflow-oriented job-search workspace connecting opportunity review, applications, networking, and follow-through. | [Overview](docs/digital-job-os.md) |
 | CricVantage | An evidence-first cricket intelligence product that explains the context behind a match, player, or matchup. | [Overview](docs/cricvantage.md) |
 | Futureproof | A role-focused learning platform that helps experienced professionals turn AI learning into practical work samples. | [Overview](docs/futureproof.md) |
-| Dependability Tracker | A manager review tool that organizes schedule and time-record discrepancies while keeping human judgment in the loop. | [Overview](docs/dependability-tracker.md) |
+| Dependability Tracker | A workforce-operations system that turns scheduling and timekeeping exceptions into an auditable manager-review workflow. In one pilot, feedback-driven recalculation reduced a weekly review queue from 70 cases to 19, a 73% reduction, while preserving the audit trail. | [Overview](docs/dependability-tracker.md) |
 | PicTitle | A browser extension that gives downloaded images more useful filenames using descriptions already present on the page. | [Overview](docs/pictitle.md) |
 | Step Challenge App | A mobile prototype for manual step logging, progress tracking, group challenges, and optional iPhone Health integration. | [Overview](docs/step-challenge-app.md) |
 | Envision Your Tomorrow | An early visualization prototype built around a person's present situation and desired future. | [Overview](docs/envision-your-tomorrow.md) |
